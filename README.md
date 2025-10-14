@@ -12,7 +12,7 @@ and I would be quite keen to continue working on Sneed in future, maybe implemen
 
 ## Some Examples of how Sneed works:
 Compile the mpc reliant version with: `make external` in the root directory, or compile the standalone version with `make standalone`.
-Then enter the `/bin` folder and run it with `./sneed_external` or `./sneed_standalone` respectively.
+Then enter the `/bin` folder and run it with `./sneed_external` or `./sneed_standalone`. Make sure to grab the mpc library that this relies upon if you are using the external version.
 
 You will enter the Sneed REPL, where you can type in Sneed code. Being a Lisp dialect, Sneed
 is rather unorthodox in its syntax (largely due to the usage of Polish notation). Here are some examples of Sneed code:
@@ -49,3 +49,7 @@ implement mathematical functions.
 
 There are many more features and ways to do things in Sneed, so feel free to try it out while I work more on the documentation and the
 non-mpc version. Enjoy!
+
+## Disclaimer
+There is an ongoing error getting this to compile on Linux systems at the moment due to it not linking to the readline library for some reason.
+I myself am using a combination of Windows, WSL2, and CachyOS (the latter for my laptop). It has been a while since I last programmed in C, so forgive me if I have made any silly mistakes with this ;P
