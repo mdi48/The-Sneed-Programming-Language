@@ -49,7 +49,3 @@ implement mathematical functions.
 
 There are many more features and ways to do things in Sneed, so feel free to try it out while I work more on the documentation and the
 non-mpc version. Enjoy!
-
-## Disclaimer
-There is an ongoing error getting this to compile on Linux systems at the moment due to it not linking to the readline library for some reason.
-I myself am using a combination of Windows, WSL2, and CachyOS (the latter for my laptop). It has been a while since I last programmed in C, so forgive me if I have made any silly mistakes with this ;P
